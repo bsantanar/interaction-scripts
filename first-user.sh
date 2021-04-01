@@ -1,0 +1,1 @@
+mongo 127.0.0.1/interaction --eval 'var document = { name: "admin", email: "admin@mail.com", password: "$2a$10$qLI0lr.b5HaWI5AiAJZMguxvoCs486kVy7Xr9de.Gd8aixVpf8SyS", userType: 1 }; db.users.insert(document);'
